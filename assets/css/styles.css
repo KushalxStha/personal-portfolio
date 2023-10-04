@@ -8,21 +8,17 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /* 
-      Change favorite color
-      Default: hsl(162, 100%, 40%)
+      Theme Colors
+      Default: hsl(14, 100%, 62%)
       Japanese Laurel: hsl(122, 39%, 33%)
       Orange: hsl(14, 100%, 65%) 
       Scarlet Red: hsl(4, 90%, 52%)
+      Green: hsl(162, 100%, 40%)
       Blue: hsl(210, 100%, 70%)
       Pink: hsl(356, 100%, 75%)
       Purple: hsl(250, 100%, 75%)
       Purple Heart: hsl(262, 52%, 47%)
       Dark Orchid: hsl(291, 64%, 48%)
-
-      For more colors visit: https://colors.dopely.top/color-pedia
-      -> Choose any color 
-      -> click on tab (Color Conversion)
-      -> Copy the color mode (HSL)
   */
 
   --hue: 14;
@@ -589,11 +585,9 @@ svg {
 
 .footer__social-link{
   display: flex;
-  /* background-color: var(--first-color-alt); */
   padding: .5rem;
   color: var(--first-color);
   font-size: 1.5rem;
-  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
   transition: transform .25s;
 }
 
